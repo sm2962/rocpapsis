@@ -29,7 +29,7 @@ function getHumanChoice(){
     console.log("You chose: Scissors");
     return "Scissors";
 }else {
-        console.log("❌ Invalid input. Try again.");
+        console.log("Invalid input. Try again.");
         return getHumanChoice(); // recursion to retry
     }
 }
@@ -74,11 +74,11 @@ function playGame(){
 
     console.log("\n--- Final Result ---");
     if (humanScore > computerScore) {
-        console.log("🎉 You win the game!");
+        console.log("You win the game!");
     } else if (computerScore > humanScore) {
-        console.log("💻 Computer wins the game!");
+        console.log("Computer wins the game!");
     } else {
-        console.log("🤝 It's a tie game!");
+        console.log("It's a tie game!");
     }
 }
 
